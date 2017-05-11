@@ -1,0 +1,131 @@
+body, html {
+    height: 100%;
+    background-color: transparent;
+}
+
+#navbar{
+    background:transparent;
+    background-image:none;
+    background-color: rgba(255,255,255,0.2);
+    box-shadow:none;
+    border-color:transparent;
+}
+
+.nav.navbar-nav.navbar-right li a,
+.navbar-header .navbar-brand {
+    color: #3E2723;
+}
+
+.navbar-header .navbar-brand:hover {
+    color: #f1f1f1;
+    transition: 0.9s color;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:#f1f1f1;
+    transition:0.9s color;
+}
+
+.jumbotron {
+    background:transparent;
+    margin:0;
+    margin-top:15%;
+    position:absolute;
+    margin-left:13%;
+    text-align:center;
+}
+
+.myName {
+    color:#BCAAA4;
+    font-size:100px;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight:bolder;
+    opacity:0.8;
+    letter-spacing:5px;
+}
+
+.subName {
+  color:#A1887F;
+  font-size:20px;
+  font-family: 'Ek Mukta', sans-serif;
+  opacity:0.6;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("http://inspiringdiscovery.com/wp-content/uploads/2013/07/clouds_like_silk-wide.jpg");
+    /* Set a specific height */
+    min-height: 650px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*position:relative;*/
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../img/2.jpg");
+    /* Set a specific height */
+    min-height: 650px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../img/3.jpg");
+    /* Set a specific height */
+    min-height: 650px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.createDiv {
+  height:500px;
+  font-size:36px;
+  background:transparent;
+  background-image:none;
+  background-color: transparent;
+  box-shadow:none;
+  border-color:transparent;
+  background-image: url("https://wallpaperscraft.com/image/gray_texture_surface_roughness_69532_2048x1152.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  text-align:center;
+}
+
+.createText {
+  color:white;
+  line-height:500px;
+  font-size:90px;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight:bold;
+}
+
+.discoverDiv {
+  height:500px;
+  font-size:36px;
+  background:transparent;
+  background-image:none;
+  background-color: transparent;
+  box-shadow:none;
+  border-color:transparent;
+  background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Free-Seamless-Wood-Textures-Patterns-For-3D-Mapping.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+}

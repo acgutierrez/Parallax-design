@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parallax Scrolling</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/myStyle.css" type="text/css">
+    <link rel="stylesheet" href="css/load.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ek+Mukta">
+  </head>
+  <body onload="myFunction()">
+
+  <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+      <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Parallax Scrolling </a>
+      </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right" id="custom-navbar">
+        <li><a href="">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#" class="explore">Explore</a></li>
+        <li><a href="#" class="discover">Discover</a></li>
+        <li><a href="#">About us</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+      <div class="parallax1">
+        <div class="jumbotron">
+            <span class="myName"> Arnold C. Gutierrez </span><br>
+            <span class="subName"> Stay hungry, stay foolish </span>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+          <div class="row">
+            <div class="createDiv">
+                <span class="createText"> EXPLORE  </span>
+            </div>
+          </div>
+      </div>
+
+      <div class="parallax2"></div>
+
+      <div class="container-fluid">
+          <div class="row">
+            <div class="discoverDiv">
+                <span class="createText"> Discover </span>
+            </div>
+          </div>
+      </div>
+
+      <div class="parallax3"></div>
+
+        <footer> Built by Arnold C. Gutierrez </footer>
+
+      </div>
+
+    <!-- jQuery lib -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Custom javascript -->
+    <script src="js/js.js"></script>
+    <script src="js/load.js"></script>
+    <!-- Javascript Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+
+</html>
